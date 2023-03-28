@@ -18,3 +18,26 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.countries{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-size: 30px;
+}
+.countries__name{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.country{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-size: 50px;
+  font-weight: 400;
+}
+.country__name{
+  margin-top:0px;
+  margin-bottom:0px;
+}
